@@ -6,7 +6,7 @@ ___
 _Tez-tez ishlatiladigan Git buyruqlari ro'yxati_
 
 
-###Loyihalarni olish & Yaratish
+### Loyihalarni olish & Yaratish
 
 | Buyruq | Tavsifi |
 | ------- | ----------- |
