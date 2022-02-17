@@ -73,3 +73,31 @@ _A list of my commonly used Git commands_
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+
+
+
+### Stash Commands
+
+| Command | Description |
+| ------- | ----------- |
+| `git stash` | git stash is used to save the changes in present working directory |
+| `git stash apply` | this command is used to apply the changes which you have saved before with the command git stash |
+| `git stash list` | this command list all the stashed changes |
+| `git stash drop` | this command delete the recent stashed chnages.|
+| `git remote -v` | List all currently configured remote repositories |
+| `git push --all origin` | Push all branches to your remote repository |
+| `git push origin :<branchname>` | Delete a branch on your remote repository |
+| `git tag 1.0.0 <commitID>` | You can use tagging to mark a significant changeset, such as a release |
+| `git push --tags origin` | Push all tags to remote repository |
+| `git fetch origin` | fetch the remote changes to local |
+| `git reset --hard <sha-value>` | this command is used to switch from one commit -id to another [This command discards all history and goes back to the specified commit.] |
+| `git reset --mixed` <sha-value> |  this command is used to switch from one commit to another but ....local changes will remain. |
+| `git reset --soft` <sha-value> | this command is also used to switch but stage area changes will remain. |
+| `git reset <filename>` | this command is used to unstage the file |
+| `git reset <commit-id>` | This command undoes all the commits after the specified commit and preserves the changes locally [unstage all the chnages whatever files present in this commit-id] |
+| `git log –follow [filename]` | This command lists version history for a file, including the renaming of files also |
+| `git show [commit id]` | This command shows the metadata and content changes of the specified commit. |
+| `git tag [commitID]` | This command is used to give tags to the specified commit. |
+| `git revert <commitid>` | this command is used to remove/delete the commitid and it will create a new commited for history |
+| `git rebase -i <commitid>` | this command is used to delete the commit id but it will not create a history |
+| `git cherry-pick <commit id>` | this command is used to copy a sha-value from one branch to other |
