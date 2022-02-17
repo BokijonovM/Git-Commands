@@ -18,11 +18,13 @@ _Tez-tez ishlatiladigan Git buyruqlari ro'yxati_
 | Buyruq | Tavsifi |
 | ------- | ----------- |
 | `git status` | Statusini tekshirish |
-| `git add [file-name.txt]` | Staging areaga fayl qo'shish |
-| `git add -A` | Staging areaga barcha yangi va o'zgartirilgan fayllarni qo'shing |
+| `git add [file-name.txt]` | Staging areaga* fayl qo'shish |
+| `git add -A` | Staging areaga* barcha yangi va o'zgartirilgan fayllarni qo'shing |
 | `git commit -m "[commit message]"` | O'zgarishlarni amalga oshirish |
 | `git rm -r [file-name.txt]` | Faylni (yoki papkani) olib tashlash |
 
+<!-- ##### * staging area - Siz undan nima qilishni xohlayotganingizni tanlash uchun foydalanishingiz mumkin -- o'sha fayldagi bir nechta o'zgartirilgan satrlar, o'sha fayldagi bo'lim... bunday ishni "staging area"siz qilish qiyin.
+ -->
 ### Branching & Merging
 
 | Command | Description |
